@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="PaleTurquoise">
+    <P align="center"><font size="7" face="Times New Roman" color="black">REGISTERATION FORM</font></P>
+    <hr color="black">
+    <br>
+    <br>
+    <form action="form.php">
+        <div style="position: relative; left: 100px;">
+            <font size="4" face="Times New Roman">
+                <label for="name">NAME:</label>
+                <input type="text" name="FNAME" id="name" placeholder="First Name" size="50" style="height: 30px;">
+                <input type="text" name="MNAME" id="name" placeholder="Middle Name" size="50" style="height: 30px;">
+                <input type="text" name="LNAME" id="name" placeholder="Last Name" size="50" style="height: 30px;">
+            </font>
+        </div>
+        <br>
+        <br>
+        <div style="position: relative; left: 100px;">
+            <font size="4" face="Times New Roman">
+                <label for="email">EMAIL:</label>
+                <input type="email" name="EMAIL" id="email" placeholder="Enter Your Email" size="50" style="height: 30px;">
+            </font>
+        </div>
+        <br>
+        <br>
+        <div style="position: relative; left: 100px;">
+            <font size="4" face="Times New Roman">
+                <label for="photo">PHOTO:</label>
+                <input type="file" name="PHOTO" id="photo">
+            </font>
+        </div>
+        <br>
+        <br>
+        <div style="position: relative; left: 100px;">
+            <font size="4" face="Times New Roman">
+                <label for="dob">DATE OF BIRTH:</label>
+                <input type="date" name="BIRTHDATE" id="dob">
+            </font>
+        </div>
+        <br>
+        <br>
+        <div style="position: relative; left: 100px;">
+            <font size="4" face="Times New Roman">
+                <label for="phone">PHONE NO:</label>
+                <select name="COUNTRY CODE" id="phone" style="height: 30px;">
+                    <option value="India">+91</option>
+                </select>
+                <input type="text" name="PHONE NO" id="phone" placeholder="Enter 10 Digit Phone Number" size="30" style="height: 30px;" maxlength="10">
+            </font>
+        </div>
+        <br>
+        <br>
+        <div style="position: relative; left: 100px;">
+            <font size="4" face="Times New Roman">
+                <label for="gender">GENDER:</label>
+                &nbsp;Male <input type="radio" name="male" id="gender">&nbsp; Female <input type="radio" name="female" id="gender">&nbsp; Others <input type="radio" name="others" id="gender">
+            </font>
+        </div>
+        <br>
+        <div style="position: relative; left: 100px;">
+            <font size="4" face="Times New Roman">
+                <p>ADDRESS DETAILS:</p>
+            </font>
+            <font size="4" face="Times New Roman">
+                <label for="address1">Address Line 1:</label>
+                <input type="text" name="ADDRESS1" id="address1" size="50" style="height: 20px;">&nbsp;&nbsp;&nbsp;
+                <label for="city">Town / City:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="townandcity" id="city" size="30" style="height: 20px;">&nbsp;&nbsp;&nbsp;
+                <label for="taluka">Taluka:</label>&nbsp;&nbsp;
+                <input type="text" name="TALUKA" id="taluka" size="30" style="height: 20px;">
+                <br>
+                <label for="address2">Address Line 2:</label>
+                <input type="text" name="ADDRESS2" id="address2" size="50" style="height: 20px;">&nbsp;&nbsp;&nbsp;
+                <label for="zipcode">Zip / Post Code:</label>
+                <input type="text" name="ZIPCODE" id="zipcode" size="30" style="height: 20px;" maxlength="6">&nbsp;&nbsp;&nbsp;
+                <label for="country">Country:</label>
+                <input type="text" name="COUNTRY" id="country" size="30" style="height: 20px;">
+            </font>
+        </div>
+        <br>
+        <br>
+        <div style="position: relative; left: 100px;">
+            <font size="4" face="Times New Roman">
+                <label for="addhar">AADHAR NUMBER:</label>
+                <input type="text" name="addhar1" id="addhar" placeholder="XXX" style="height: 25px;" maxlength="3">
+                <input type="text" name="addhar2" id="addhar" placeholder="XXX" style="height: 25px;" maxlength="3">
+                <input type="text" name="addhar3" id="addhar" placeholder="XXX" style="height: 25px;" maxlength="3">
+                <input type="text" name="addhar4" id="addhar" placeholder="XXX" style="height: 25px;" maxlength="3">
+                <p style="position: relative; left: 350px;">(Enter Your 12 Digit Aadhar Number)</p>
+            </font>
+        </div>
+        <br>
+        <div style="position: relative; left: 100px;">
+            <font size="4" face="Times New Roman">
+                <label for="marks">ENTER YOUR MARKS:</label>
+                <br>
+                <br>
+                Class X &nbsp;<input type="text" name="10thmarks" id="marks" placeholder="In Percentage" style="height: 25px;">&nbsp;&nbsp;
+                Class XII &nbsp;<input type="text" name="12thmarks" id="marks" placeholder="In Percentage" style="height: 25px;">&nbsp;&nbsp;
+                <select name="after12th" id="marks" style="height: 30px;">
+                    <option value="JEE">JEE</option>
+                    <option value="NEET">NEET</option>
+                    <option value="MHT CET">MHT CET</option>
+                </select>
+                <input type="text" name="after12thmarks" id="marks" placeholder="In Percentile" style="height: 25px;">
+            </font>
+        </div>
+        <br>
+        <br>
+        <div style="position: relative; left: 100px;">
+            <font size="4" face="Times New Roman">
+                <label for="parents">PARENT DETAILS:</label>
+                <br>
+                <br>
+                FATHER'S NAME: <input type="text" name="Fathername" id="parents" placeholder="First Name" size="30" style="height: 25px;"> <input type="text" name="Fathername" id="parents" placeholder="Last Name" size="30" style="height: 25px;">&nbsp;&nbsp;&nbsp;
+                OCCUPATION: <input type="text" name="Fatheroccupation" id="parents" placeholder="Father's Occupation" size="30" style="height: 25px;">
+                <br>
+                <br>
+                MOTHER'S NAME: <input type="text" name="Mothername" id="parents" placeholder="First Name" size="30" style="height: 25px;"> <input type="text" name="Mothername" id="parents" placeholder="Last Name" size="30" style="height: 25px;">&nbsp;&nbsp;&nbsp;
+                OCCUPATION: <input type="text" name="Motheroccupation" id="parents" placeholder="Mother's Occupation" size="30" style="height: 25px;">
+                <br>
+                <br>
+                PHONE NUMBER:
+                <select name="COUNTRY CODE" id="parents" style="height: 30px;">
+                    <option value="India">+91</option>
+                 </select>
+                <input type="text" name="PHONE NO" id="parents" placeholder="Enter 10 Digit Phone Number" size="30" style="height: 25px;" maxlength="10">
+                <p style="position: relative; left: 150px;">(Enter Any One Of  Your Parent Phone Number)</p>
+                OFFICE ADDRESS:
+                <br>
+                <br>
+                <label for="address1P">Address Line 1:</label>
+                <input type="text" name="ADDRESS1P" id="address1P" size="50" style="height: 20px;">&nbsp;&nbsp;&nbsp;
+                <label for="cityP">Town / City:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="townandcityp" id="cityp" size="30" style="height: 20px;">&nbsp;&nbsp;&nbsp;
+                <label for="talukap">Taluka:</label>&nbsp;&nbsp;
+                <input type="text" name="TALUKAp" id="talukap" size="30" style="height: 20px;">
+                <br>
+                <label for="address2P">Address Line 2:</label>
+                <input type="text" name="ADDRESS2P" id="address2P" size="50" style="height: 20px;">&nbsp;&nbsp;&nbsp;
+                <label for="zipcodeP">Zip / Post Code:</label>
+                <input type="text" name="ZIPCODEP" id="zipcodeP" size="30" style="height: 20px;" maxlength="6">&nbsp;&nbsp;&nbsp;
+                <label for="countryP">Country:</label>
+                <input type="text" name="COUNTRYP" id="countryP" size="30" style="height: 20px;">
+            </font>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div style="position: relative; left: 100px;">
+            <input type="reset" value="RESET" style="height: 30px;">&nbsp;&nbsp;&nbsp;<input type="submit" value="SUBMIT" style="height: 30px;">
+        </div>
+    </form>
+</body>
+</html>
